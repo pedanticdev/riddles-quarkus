@@ -1,8 +1,30 @@
-# riddles
+# Enigma Quest - Payara Qube Quarkus Demo
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+**Quarkus Demo Application** showcasing deployment on Payara Qube, the zero-maintenance Java app deployment platform.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+This interactive riddle game demonstrates a production-ready Quarkus application configured for Payara Qube deployment.
+The application features:
+
+- **RESTful API** endpoints for riddles, user submissions, and statistics
+- **OpenAPI/Swagger** documentation
+- **Micrometer metrics** for monitoring and observability
+- **MicroProfile** Fault Tolerance (retry, timeout, fallback)
+- **Bean Validation** for request validation
+- **Static web UI** with interactive JavaScript game
+
+## About Payara Qube
+
+Payara Qube is a zero-maintenance, unified platform for deploying Jakarta EE, Spring, or Quarkus applications on your
+own infrastructure with complete data sovereignty. It eliminates the complexity of Kubernetes setup and ongoing
+maintenance while providing:
+
+- Framework-agnostic support (Jakarta EE, Spring, Quarkus)
+- Zero Kubernetes setup required
+- Complete data sovereignty
+- Integrated monitoring and observability
+- Rapid deployment (hours to minutes)
+
+This project uses Quarkus, the Supersonic Subatomic Java Framework. Learn more at <https://quarkus.io/>.
 
 ## Running the application in dev mode
 
@@ -55,4 +77,5 @@ If you want to learn more about building native executables, please consult <htt
 
 ## Related Guides
 
-- Payara Qube Support ([guide](https://docs.quarkiverse.io/quarkus-payara-qube/dev/)): Runtime configuration for deploying to Payara Qube
+- Payara Qube Support ([guide](https://docs.quarkiverse.io/quarkus-payara-qube/dev/)): Runtime configuration for
+  deploying to Payara Qube
